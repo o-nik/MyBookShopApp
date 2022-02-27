@@ -99,15 +99,199 @@
         </h1>
         <div class="Section">
           <div class="Authors" >
-            <div class="Authors-letter" >
-              <div th:each="author : ${authorData}">
-                <div class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+            <div class="Authors-links"><a class="Authors-link" href="#a">А</a><a class="Authors-link" href="#b">B</a><a class="Authors-link" href="#c">C</a><a class="Authors-link" href="#d">D</a><a class="Authors-link" href="#e">E</a><a class="Authors-link" href="#f">F</a><a class="Authors-link" href="#g">G</a><a class="Authors-link" href="#h">H</a><a class="Authors-link" href="#i">I</a><a class="Authors-link" href="#j">J</a><a class="Authors-link" href="#k">K</a><a class="Authors-link" href="#l">L</a><a class="Authors-link" href="#m">M</a><a class="Authors-link" href="#n">N</a><a class="Authors-link" href="#o">O</a><a class="Authors-link" href="#p">P</a><a class="Authors-link" href="#q">Q</a><a class="Authors-link" href="#r">R</a><a class="Authors-link" href="#s">S</a><a class="Authors-link" href="#t">T</a><a class="Authors-link" href="#u">U</a><a class="Authors-link" href="#v">V</a><a class="Authors-link" href="#w">W</a><a class="Authors-link" href="#x">X</a><a class="Authors-link" href="#y">Y</a><a class="Authors-link" href="#z">Z</a>
+            </div>
+            <div class="Authors-block">
+              <h2 class="Authors-title" id="a">А
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'A'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
               </div>
-             </div>
+              <h2 class="Authors-title" id="b">B
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'B'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="c">C
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'C'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="d">D
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'D'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="e">E
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'E'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="f">F
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'F'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="g">G
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'G'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="h">H
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'H'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="i">I
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'I'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="j">J
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'J'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="k">K
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'K'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="l">L
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'L'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="m">M
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'M'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="n">N
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'N'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="o">O
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'O'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="p">P
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'P'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="q">Q
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'Q'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="r">R
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'R'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="s">S
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'S'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="t">T
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'T'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="u">U
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'U'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="v">V
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'V'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="w">W
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'W'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="x">X
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'X'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="y">Y
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'Y'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+              <h2 class="Authors-title" id="z">Z
+              </h2>
+              <div class="Authors-letter" >
+                <div th:each="author : ${authorData}">
+                  <div th:if="${#strings.substring(author.lastName, 0, 1)} == 'Z'" class="Authors-item"><a href="#" th:text="${author.lastName} + ' ' + ${author.firstName}">Абгарян Наринэ</a></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </main>
+    </div>
+  </div>
 
-        <div class="Section">
+<!--        <div class="Section">
           <div class="Authors">
             <div class="Authors-links"><a class="Authors-link" href="#a">А</a><a class="Authors-link" href="#b">Б</a><a class="Authors-link" href="#v">В</a><a class="Authors-link" href="#g">Г</a><a class="Authors-link" href="#d">Д</a><a class="Authors-link" href="#e">Е</a><a class="Authors-link" href="#e">Ё</a><a class="Authors-link" href="#ge">Ж</a><a class="Authors-link" href="#z">З</a><a class="Authors-link" href="#i">И</a><a class="Authors-link" href="#ik">Й</a><a class="Authors-link" href="#k">К</a><a class="Authors-link" href="#l">Л</a><a class="Authors-link" href="#m">М</a><a class="Authors-link" href="#n">Н</a><a class="Authors-link" href="#o">О</a><a class="Authors-link" href="#p">П</a><a class="Authors-link" href="#r">Р</a><a class="Authors-link" href="#s">С</a><a class="Authors-link" href="#t">Т</a><a class="Authors-link" href="#u">У</a><a class="Authors-link" href="#f">Ф</a><a class="Authors-link" href="#h">Х</a><a class="Authors-link" href="#c">Ц</a><a class="Authors-link" href="#ch">Ч</a><a class="Authors-link" href="#sh">Ш</a><a class="Authors-link" href="#shh">Щ</a><a class="Authors-link" href="#ye">Э</a><a class="Authors-link" href="#yu">Ю</a><a class="Authors-link" href="#ya">Я</a>
             </div>
@@ -3239,7 +3423,7 @@
         </div>
       </main>
     </div>
-  </div>
+  </div>-->
   <footer class="Footer">
     <div class="wrap">
       <div class="row Footer-main">
